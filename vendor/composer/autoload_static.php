@@ -47,6 +47,10 @@ class ComposerStaticInit95114f9052fa93c6d45ce15390c776af
         array (
             'Doctrine\\Instantiator\\' => 22,
         ),
+        'A' => 
+        array (
+            'Acme\\App\\' => 9,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -99,6 +103,10 @@ class ComposerStaticInit95114f9052fa93c6d45ce15390c776af
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
+        ),
+        'Acme\\App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
