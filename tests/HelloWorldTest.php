@@ -13,4 +13,5 @@ class HelloWorldTest extends PHPUnit_Framework_TestCase
         $hw = new Acme\App\HelloWorld();
         $this->assertEquals("Hello World", $hw->hello("World"));
     }
+
 }
